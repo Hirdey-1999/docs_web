@@ -42745,7 +42745,7 @@ r.h(0,s)
 r.h(0,"maxTouchPoints")
 return A.dk(new A.Dh(),t.U2)}}
 A.Hx.prototype={
-a8(){var s,r,q,p,o,n,m,l,k="http://0.0.0.0:3001",j="query",i=$.aJ(),h=$.aDq
+a8(){var s,r,q,p,o,n,m,l,k="https://docs-server-5vy2.onrender.com",j="query",i=$.aJ(),h=$.aDq
 if(h==null){h=new A.aim()
 s=A.K(["transports",A.a(["websocket"],t.s),"autoConnect",!1],t.N,t.z)
 r=A.cK(k,0,null)
@@ -42754,7 +42754,7 @@ p=r.gdH(r)
 o=$.auF.O(0,q)&&$.auF.h(0,q).c.O(0,p)
 n=s.h(0,"forceNew")===!0||s.h(0,"force new connection")===!0||!1===s.h(0,"multiplex")||o
 m=A.be("io")
-if(n){$.aID().aY(B.n,"ignoring socket cache for http://0.0.0.0:3001",null,null)
+if(n){$.aID().aY(B.n,"ignoring socket cache for https://docs-server-5vy2.onrender.com",null,null)
 m.b=A.aCd(s,k)}else{l=$.auF.h(0,q)
 if(l==null){l=A.aCd(s,k)
 $.auF.l(0,q,l)}m.b=l}if(r.gjn(r).length!==0&&s.h(0,j)==null)s.l(0,j,r.gjn(r))
@@ -43031,7 +43031,7 @@ break
 case 8:h=m.a
 if(h==null)h=""
 l=new A.fb(h,m.b,"","")
-h=A.cK("http://0.0.0.0:3001/api/signup",0,null)
+h=A.cK("https://docs-server-5vy2.onrender.com/api/signup",0,null)
 g=B.I.h8(l.HQ())
 f=t.N
 s=10
@@ -43076,7 +43076,7 @@ s=m!=null?8:9
 break
 case 8:h=t.N
 s=10
-return A.Y(n.b.Dx("GET",A.cK("http://0.0.0.0:3001/",0,null),A.K(["Content-Type","application/json; charset=UTF-8","x-auth-token",m],h,h)),$async$jv)
+return A.Y(n.b.Dx("GET",A.cK("https://docs-server-5vy2.onrender.com/",0,null),A.K(["Content-Type","application/json; charset=UTF-8","x-auth-token",m],h,h)),$async$jv)
 case 10:l=a1
 A.eU(l.b)
 switch(l.b){case 200:h=l
@@ -43127,7 +43127,7 @@ s=p}while(true)switch(s){case 0:i=new A.dy(null,"Some Unexpected Error occured."
 p=4
 k=t.N
 s=7
-return A.Y(n.a.n2("POST",A.cK("http://0.0.0.0:3001/doc/create",0,null),A.K(["Content-Type"," application/json; charset=UTF-8","x-auth-token",b],k,k),B.I.t4(A.K(["createdAt",Date.now()],k,t.S),null),null),$async$xs)
+return A.Y(n.a.n2("POST",A.cK("https://docs-server-5vy2.onrender.com/doc/create",0,null),A.K(["Content-Type"," application/json; charset=UTF-8","x-auth-token",b],k,k),B.I.t4(A.K(["createdAt",Date.now()],k,t.S),null),null),$async$xs)
 case 7:m=d
 A.eU(m.b)
 switch(m.b){case 200:k=m
@@ -43159,7 +43159,7 @@ s=p}while(true)switch(s){case 0:g=new A.dy(null,"Some Unexpected Error occured."
 p=4
 i=t.N
 s=7
-return A.Y(n.a.Dx("GET",A.cK("http://0.0.0.0:3001/doc/me",0,null),A.K(["Content-Type"," application/json; charset=UTF-8","x-auth-token",a],i,i)),$async$uH)
+return A.Y(n.a.Dx("GET",A.cK("https://docs-server-5vy2.onrender.com/doc/me",0,null),A.K(["Content-Type"," application/json; charset=UTF-8","x-auth-token",a],i,i)),$async$uH)
 case 7:m=c
 switch(m.b){case 200:l=A.a([],t.No)
 for(k=0;i=m,k<J.b0(B.I.pn(0,A.oA(J.aD(A.ov(i.e).c.a,"charset")).c4(0,i.w),null));++k){i=m
@@ -43189,7 +43189,7 @@ anw(a,b,c){var s=0,r=A.U(t.z),q=this,p
 var $async$zy=A.Q(function(d,e){if(d===1)return A.R(e,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.Y(q.a.n2("POST",A.cK("http://0.0.0.0:3001/doc/title",0,null),A.K(["Content-Type"," application/json; charset=UTF-8","x-auth-token",c],p,p),B.I.t4(A.K(["title",b,"id",a],p,p),null),null),$async$zy)
+return A.Y(q.a.n2("POST",A.cK("https://docs-server-5vy2.onrender.com/doc/title",0,null),A.K(["Content-Type"," application/json; charset=UTF-8","x-auth-token",c],p,p),B.I.t4(A.K(["title",b,"id",a],p,p),null),null),$async$zy)
 case 2:return A.S(null,r)}})
 return A.T($async$zy,r)},
 uI(a,b){return this.Wf(a,b)},
@@ -43199,7 +43199,7 @@ s=p}while(true)switch(s){case 0:i=new A.dy(null,"Some Unexpected Error occured."
 p=4
 k=t.N
 s=7
-return A.Y(n.a.Dx("GET",A.cK("http://0.0.0.0:3001/doc/"+b,0,null),A.K(["Content-Type"," application/json; charset=UTF-8","x-auth-token",a],k,k)),$async$uI)
+return A.Y(n.a.Dx("GET",A.cK("https://docs-server-5vy2.onrender.com/doc/"+b,0,null),A.K(["Content-Type"," application/json; charset=UTF-8","x-auth-token",a],k,k)),$async$uI)
 case 7:m=d
 switch(m.b){case 200:k=m
 i=new A.dy(A.ayU(B.I.c4(0,A.oA(J.aD(A.ov(k.e).c.a,"charset")).c4(0,k.w))),null)
